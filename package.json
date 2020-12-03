@@ -1,0 +1,16 @@
+{
+  "name": "@souche-f2e/eslint-config-frontend",
+  "version": "2.1.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@git.souche.com:souche-f2e/eslint-config-frontend.git"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
