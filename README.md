@@ -3,16 +3,23 @@
 ### 安装
 
 ```bash
-$ npm install --save-dev @souche-f2e/eslint-config-frontend@1 eslint@3 babel-eslint@7
+$ npm install Sunbridger-eslint-config
 ```
 
 ### 配置
 
-在项目的根目录创建 `.eslintrc.js`，添加内容
+在项目的package.json 添加内容
 
 ```javascript
-module.exports = {
-    root: true,
-    extends: '@souche-f2e/eslint-config-frontend'
-};
+"eslintConfig": {
+    "root": true,
+    "env": {
+        "node": true
+    },
+    "extends": ["Sunbridger-eslint-config"],
+    "rules": {},
+    "parserOptions": {
+        "parser": "babel-eslint"
+    }
+},
 ```
