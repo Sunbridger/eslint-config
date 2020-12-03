@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@git.souche.com:souche-f2e/eslint-config-frontend.git"
+    "url": "git@github.com:Sunbridger/eslint-config.git"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^12.1.0",
